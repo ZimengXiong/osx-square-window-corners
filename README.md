@@ -20,7 +20,7 @@
 > This has only been tested on LIGHT MODE. I have no idea what you will need to do to make it work on DARK MODE
 
 > [!NOTE]
-> When I was trying out different .car modifications, I accidentally bricked my system, and essentially all windows could not be visible. Reverting was a simple as a few terminal commands. Make sure you can access these commands on an another device just in case.
+> When I was trying out different .car modifications, I accidentally bricked my system, and essentially all windows could not be visible. Reverting was a simple as a few terminal commands. Make sure you can access these commands on an another device just in case. SET UP SSH FROM ANOTHER DEVICE FIRST SO YOU CAN EASILY RUN TERMINAL COMMANDS FROM ANOTHER DEVICE.
 
 ## Backup your Files
 
