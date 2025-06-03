@@ -1,4 +1,4 @@
-# MacOS Square WIndow Corners
+# MacOS Square Window Corners
 
 ![Example](Example.png)
 
