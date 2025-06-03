@@ -1,6 +1,7 @@
 # MacOS Square Window Corners
 
 ![Example](Example.png)
+![Example_Dark](Example_Dark.png)
 
 # Installation
 
@@ -15,9 +16,6 @@
 
 > [!IMPORTANT]
 > This has only been tested on macOS Version 15.5, Build 24F74
-
-> [!IMPORTANT]
-> This has only been tested on LIGHT MODE. I have no idea what you will need to do to make it work on DARK MODE
 
 > [!NOTE]
 > When I was trying out different .car modifications, I accidentally bricked my system, and essentially all windows could not be visible. Reverting was a simple as a few terminal commands. Make sure you can access these commands on an another device just in case. SET UP SSH FROM ANOTHER DEVICE FIRST SO YOU CAN EASILY RUN TERMINAL COMMANDS FROM ANOTHER DEVICE.
@@ -44,8 +42,8 @@ cp -r /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/ ~
 
 ## Building your own Assets.car file
 
-> [!IMPORTANT]
-> This has only been tested on LIGHT MODE. I have no idea what you will need to do to make it work on DARK MODE
+> [!NOTE]
+> The steps are the same for Dark Mode as Light Mode. Make sure you replace DarkAqua.car and NOT Aqua.car, otherwise you will LOSE your light theme.
 
 1. Install [Theme Engine](<https://github.com/jslegendre/ThemeEngine/releases/download/v1.0.0(119)/ThemeEngine.zip>), a .car viewer and [AssetCatalogTinkerer](https://github.com/insidegui/AssetCatalogTinkerer), a .car image exporter
 2. Open `/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Aqua.car` with AssetCatalogTinkerer, and export all the images starting with `WindowFrame_WindowShapeEdges`
@@ -54,7 +52,7 @@ cp -r /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/ ~
 
    ![alt text](ThemeEngineSidebar.png)
 
-5. Edit all but "Normal Small Active", "Normal Small Inactive", "Regular Active" so that the viewbox is filled with that color instead of having a corner radius, you can do this with a variety of photo edit tools, like PREVIEW, [Gimp](https://www.gimp.org/), Photoshop, Figma, etc, etc.
+5. Edit all so that the viewbox is filled with that color instead of having a corner radius, you can do this with a variety of photo edit tools, like PREVIEW, [Gimp](https://www.gimp.org/), Photoshop, Figma, etc, etc.
 6. Drag and drop the edited images into the boxes.
 7. Save as in ThemeEngine (⌘⇧S) as "Aqua.car" in your Root directory
 
@@ -141,6 +139,14 @@ sudo shutdown -r now
 ```
 
 # How to restore your computer
+
+## Switch Themes
+
+If you modded light mode, go to system->appearances then switch to dark mode, and vice versa, since the two themes are defined in separate files.
+
+## Otherwise
+
+If you lose access to windows, try SSHing into your computer
 
 1. Get your backup file and copy it to the computer in a safe location
 2. Open a terminal, follow the instruction to mount the volume.
