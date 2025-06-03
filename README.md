@@ -14,7 +14,7 @@
 > Backup your data!! This WILL leave your system in an unsupported state.
 
 > [!IMPORTANT]
-> This has only been tested on, macOS Version 15.5, Build 24F74
+> This has only been tested on macOS Version 15.5, Build 24F74
 
 > [!IMPORTANT]
 > This has only been tested on LIGHT MODE. I have no idea what you will need to do to make it work on DARK MODE
