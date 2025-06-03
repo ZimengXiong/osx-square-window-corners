@@ -38,7 +38,7 @@ cp -r /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/ ~
 ```
 
 > [!WARNING]
-> You should not blindly trust me and the Assets.car file in this repo. You should never rust anyone to tells you to disable SIP and run arbitrary commands. You should never trust anyone who tells you to place arbitrary files into arbitrary places, always research commands and build executables when possible. It is always best to build your own from the files based on your own system.
+> You should not blindly trust me and the Assets.car file in this repo. You should never trust anyone to tells you to disable SIP and run arbitrary commands. You should never trust anyone who tells you to place arbitrary files into arbitrary places, always research commands and build executables when possible. It is always best to build your own from the files based on your own system.
 
 ## Building your own Assets.car file
 
