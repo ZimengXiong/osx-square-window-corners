@@ -1,5 +1,6 @@
 # MacOS Square Window Corners
 
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/0080b2e4-05cd-4a1c-a007-37495d9256c2" />
 ![Example](Example.png)
 ![Example_Dark](Example_Dark.png)
 
